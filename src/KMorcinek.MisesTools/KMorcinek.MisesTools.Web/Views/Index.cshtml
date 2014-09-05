@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Mises tools</title>
+    <link href="/Content/bootstrap.min.css" rel="stylesheet">
+</head>
+<body ng-app="app">
+    <div ng-controller="MainCtrl">
+        <button class="btn btn-primary center-block" ng-click="convertText(text)">Konwertuj</button><br/>
+        <textarea class="center-block" ng-model="text" style="width:90%; height: 700px;"></textarea>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+    <script src="/app/app.js"></script>
+    <script src="/app/MainCtrl.js"></script>
+</body>
+</html>
